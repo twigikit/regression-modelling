@@ -41,17 +41,17 @@ Over sampling involves adding samples of the high-risk defaulting loans to the t
 
 ![](model1_classification_report.png) 
 
-Model 1 has a balanced accuracy score of 95%. The model predicts healthy loan with 100% precision and 99% recall. The prediction on high-risk loan is moderately precise (85%) and reasonably high recall (91%). 
+Model 1 has a balanced accuracy score of 95%. The model is able to predict healthy loan with 100% precision and 99% recall. The prediction on high-risk loan is moderately precise (85%) and with reasonably high recall (91%). 
 
 **Model 2: Logistic regression model with resampled training data**
 
 ![](model2_classification_report.png)
 
-Model 2 has a balanced accuracy score of 99%. The model predicts healthy loan with 100% precision and 99% recall. The prediction on high-risk loan is moderately precise (84% score) and 99% recall. 
+Model 2 has a balanced accuracy score of 99%. Similar to Model 1, Model 2 is able to predict healthy loan with 100% precision and 99% recall. Model 2's prediction on high-risk loan is moderately precise (84% score) and has a slightly higher recall (99%) as compared to Model 1. 
 
 ## Recommendation
 
 In the context of lending services, it is critical to minimise the exposure to high-risk defaulting loan. A model that minimising false healthy loan is preferred. Model 2 - Logistic regression model with resampled data is recommended given
-* model 2 has higher accuracy score 99% compared to model 1 (95%), 
-* model 2 predicts healthy loan equally well as model 1 (i.e. similar precision and recall), and 
-* model 2 predicts high-risk defaulting loan with similar precision as model 1 but higher recall than model 1. This means model 2 is likely to minimise false healthy loan prediction better than model 1. 
+* Model 2 has higher accuracy score 99% compared to Model 1 (95%), 
+* Model 2 predicts healthy loan equally well as Model 1 (i.e. similar precision and recall), and 
+* Model 2 predicts high-risk defaulting loan with similar precision as model 1 but higher recall than model 1. This means Model 2 is likely to minimise false healthy loan prediction better than Model 1. 
