@@ -7,7 +7,7 @@ Classification predictive modelling is a supervised machine learning approach th
 To evaluate the performance of each model, we use metrics such as accuracy, precision and recall score.
 
 ## Data and Assumption
-A dataset of historical lending activity from a peer-to-peer lending services is used for the modelling. This dataset has 77,526 records and contains the following variables:
+A dataset of historical lending activity from a peer-to-peer lending services company is used for the modelling. This dataset has 77,526 records and contains the following variables:
 * size of the loan
 * loan interest rate
 * borrower's income
