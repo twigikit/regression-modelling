@@ -32,7 +32,7 @@ The below summarises the key steps followed in this machine learning exercise:
 5. **Evaluating the model** - To evaluate the performance of the model, we focus on metrics such as accuracy score, precision rate and recall rate. 
 
 
-Out of the total 77526 loans, 2500 (or 3%) is of high risk of defaulting. The disproportionate ratio of healthy and high-risk defaulting loans can make training efficient machine learning models difficult. Data resampling and ensemble learning are the common techniques used to handle this class imbalance. In this exercise, we focus on data resampling technique - over sampling.
+Out of the total 77526 loans, 2500 (or 3%) is categorised as high risk of defaulting. The disproportionate ratio of healthy and high-risk defaulting loans can make training efficient machine learning models difficult. Data resampling and ensemble learning are the common techniques used to handle this class imbalance. In this exercise, we focus on data resampling technique - over sampling.
 
 Over sampling involves adding samples of the high-risk defaulting loans to the training set. We use the RandomOverSampler module from the imbalanced-learn library to resample the data, fit a second logistic model with the resampled training data and make prediction using the testing data. 
 
