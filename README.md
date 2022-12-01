@@ -20,7 +20,7 @@ A dataset of historical lending activity from a peer-to-peer lending services is
 Variables are assumed to be independent of each other. <br>
 
 ## Machine Learning
-The below machine learning process is followed:
+The below summarises the key steps followed in this machine learning exercise:
 1. **Preparing data** - Separate the data into target and features. Target represents the outcome that we want the model to predict. Features are the variables used by the model to predict the target. In this exercise, "loan status" is the target and features are the remaining seven variables provided in the lending history. Loan status is marked with 0 or 1 where value of 0 means the loan is healthy and value of 1 means the loan has a high risk of defaulting.
 
 2. **Preprocessing data** - The data is then split into training and testing sets. The training set is the set the model learns from. The testing set is used to check the accuracy of the model after training.
